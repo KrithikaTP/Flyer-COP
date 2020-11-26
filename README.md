@@ -116,3 +116,13 @@ REST_API_URL = "YOUR POWERBI API URL"
 ```
 client = Client("<YOUR AUTHORIZATION ID>", "YOUR AUTH TOKEN")
 ```
+### How to execute
+Once everything is set, go to the terminal of your laptop do the following operation.
+```
+ssh <YOUR RASPBERRY PI IP ADDRESS>
+```
+Once done move to the directory where the code files are present and execute as follows:
+1 To execute traffic analysis. 
+```
+python smartTrafficAnalysis.py
+```
