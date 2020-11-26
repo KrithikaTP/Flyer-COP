@@ -83,3 +83,36 @@ Adapter required to support power for raspberry pi. Fix the drone with raspberry
 ```sh
 pip install -r requirements.txt
 ```
+### Set your AZURE Credentials 
+* Open the ambulance.py file and change the following details from your Custom Vision Portal.
+```
+ENDPOINT = "<YOUR ENDPOINT>"
+training_key = "<YOUR TRAINING KEY>"
+prediction_key = "<YOUR PREDICTION KEY>"
+prediction_resource_id = "<YOUR RESOURCE ID>"
+project_id = '<YOUR PROJECT ID>'
+publish_iteration_name = "<YOUR MODEL NAME>"
+```
+* Open the human.py and objectDetection.py file and change the following details from your Azure Portal for Cmputer Vision.
+```
+subscription_key = "<YOUR SUBSCRIPTION KEY>"
+endpoint = "<YOUR ENDPOINT>"
+client = Client("<YOUR AUTHORIZATION ID>", "YOUR AUTH TOKEN")
+```
+* Open the identifyFace.py file and change the following details from your Azure Portal for Azure Face.
+```
+KEY = "<YOUR KEY>"
+ENDPOINT = "<YOUR ENDPOINT>"
+```
+* Open the iotHub.py file and change the following details from your Azure Portal for IotHub.
+```
+CONNECTION_STRING = "<YOUR IOTHUB CONNECTION STRING>"
+```
+* Open the powerBi.py file and change the following details from your Power Bi Portal.
+```
+REST_API_URL = "YOUR POWERBI API URL"
+```
+* Open the sendSMS.py file and change the following details as per the twillo agent.
+```
+client = Client("<YOUR AUTHORIZATION ID>", "YOUR AUTH TOKEN")
+```
