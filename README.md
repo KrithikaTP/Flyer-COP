@@ -70,4 +70,7 @@ Go to the azure portal and tap on 'Create New resource' and select Computer Visi
 Follow the same steps for Azure Face and Power Bi.
 
 ## Hardware Module Setup
-
+A drone which has the capability to fly upto 50 Feet and 2.4 Ghz transmission mode. Also the drone having the capacity to carry 100-150(Raspberry Pi) g of weight.
+Adapter required to support power for raspberry pi. Fix the drone with raspberry Pi.
+### 4) Connect the V2 Camera in the Camera port of Raspberry Pi as shown below
+![](https://www.allaboutcircuits.com/uploads/articles/raspberry-pi-camera-2.png?v=1470886330073)
