@@ -41,3 +41,17 @@ If any unknown person is detected, then immediately a notification is sent to ta
 * Azure Face – to detect unknown person
 * Azure Service Bus – to link IOT hub and Logic App
 * Azure Power BI Embedded – Graphical analysis 
+
+## Set Up the Azure Backend
+### 1) Register Raspberry Pi with Azure IOT Hub
+Go through this link to register the raspberry pi [How to register a new device in IOT Hub](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-register-device)
+
+### 2) Training the model using Azure Custom Vision
+Create a new Azure Cognitive Service in the Azure Portal and go to the Quick Start(in navigation pane) and click Custom Vision Portal.
+This will take you to the Azure Custom Vision Portal.
+
+Take some random images of 'ambulances'(min 15) from the internet and train it in the Custom Vison Potal as mentioned in the below link.
+
+[Train a model in Custom Vision](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector)
+
+It takes few minutes to train the model. Once the model is trained , go to the performance menu and publish the model.
