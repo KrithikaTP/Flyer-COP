@@ -126,3 +126,15 @@ Once done move to the directory where the code files are present and execute as 
 ```
 python smartTrafficAnalysis.py
 ```
+* To execute ambulance detection. 
+```
+python smartAmbulanceDetector.py
+```
+* To execute Human Rescue.
+```
+python smartHumanRescue,py
+```
+* To execute unknown person detection.
+```
+python smartSecurity.py
+```
