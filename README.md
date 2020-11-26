@@ -5,7 +5,7 @@
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
 * [Set Up the Azure Backend](#set-up-the-azure-backend)
-* [Connecting the sensors with Raspberry Pi](#connecting-the-sensors-with-raspberry-Pi)
+* [Hardware Module Setup](#hardware-module-setup)
 * [How to Run Bin Part Using Raspberry Pi](#how-to-run-bin-part-using-raspberry-pi)
 
 <!-- ABOUT THE PROJECT -->
@@ -69,5 +69,5 @@ unknownPersonDetected = "true"
 Go to the azure portal and tap on 'Create New resource' and select Computer Vision and tap on 'Create'.
 Follow the same steps for Azure Face and Power Bi.
 
-
+## Hardware Module Setup
 
