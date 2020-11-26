@@ -6,7 +6,7 @@
 * [Built With](#built-with)
 * [Set Up the Azure Backend](#set-up-the-azure-backend)
 * [Hardware Module Setup](#hardware-module-setup)
-* [How to Run Bin Part Using Raspberry Pi](#how-to-run-bin-part-using-raspberry-pi)
+* [How to Run Flyer Cop](#how-to-run-flyer-cop)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -72,5 +72,7 @@ Follow the same steps for Azure Face and Power Bi.
 ## Hardware Module Setup
 A drone which has the capability to fly upto 50 Feet and 2.4 Ghz transmission mode. Also the drone having the capacity to carry 100-150(Raspberry Pi) g of weight.
 Adapter required to support power for raspberry pi. Fix the drone with raspberry Pi.
-### 4) Connect the V2 Camera in the Camera port of Raspberry Pi as shown below
+### Connect the V2 Camera in the Camera port of Raspberry Pi as shown below
 ![](https://www.allaboutcircuits.com/uploads/articles/raspberry-pi-camera-2.png?v=1470886330073)
+
+## How to Run Flyer Cop
