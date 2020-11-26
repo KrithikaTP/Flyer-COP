@@ -55,3 +55,12 @@ Take some random images of 'ambulances'(min 15) from the internet and train it i
 [Train a model in Custom Vision](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector)
 
 It takes few minutes to train the model. Once the model is trained , go to the performance menu and publish the model.
+
+### 3) Create Service Bus and Azure Logic App
+The drone's purpose is not only to monitor and keep sending data. It also has to send immediate notifications or alerts whenever needed.
+Refer the link to setup the azure logic app [IoT remote monitoring and notifications with Azure Logic Apps connecting your IoT hub and mailbox](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-monitoring-notifications-with-azure-logic-apps)
+
+Change the query in adding the route as follows
+```sh
+unknownPersonDetected = "true"
+```
