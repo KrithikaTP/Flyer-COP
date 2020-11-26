@@ -64,3 +64,10 @@ Change the query in adding the route as follows
 ```sh
 unknownPersonDetected = "true"
 ```
+
+### 4) Create resource for Power Bi,Face and Computer Vision
+Go to the azure portal and tap on 'Create New resource' and select Computer Vision and tap on 'Create'.
+Follow the same steps for Azure Face and Power Bi.
+
+
+
