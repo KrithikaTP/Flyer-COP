@@ -1,0 +1,10 @@
+pip install Pillow
+pip install opencv-python
+pip install picamera
+pip install azure-cognitiveservices-vision-face
+pip install azure-cognitiveservices-vision-customvision
+pip install azure-cognitiveservices-vision-computervision
+pip install azure-iot-device
+pip install msrest
+pip install twilio
+pip install scipy
