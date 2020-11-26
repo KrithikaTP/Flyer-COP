@@ -76,3 +76,10 @@ Adapter required to support power for raspberry pi. Fix the drone with raspberry
 ![](https://www.allaboutcircuits.com/uploads/articles/raspberry-pi-camera-2.png?v=1470886330073)
 
 ## How to Run Flyer Cop
+### Prerequisite
+* Clone the Repository.
+* Install the following packages in Raspberry Pi.
+* Launch the terminal and install.
+```sh
+pip install -r requirements.txt
+```
